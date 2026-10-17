@@ -11,7 +11,7 @@
 
 ## 📌 O que é?
 
-O **Windows Polish** reúne, em um único menu interativo, dezenas de alterações que normalmente exigiriam navegar por dezenas de telas do Editor de Política de Grupo, do Registro e do `services.msc`. Ele foi pensado para **três objetivos principais**:
+O **Windows Polish** reúne, em um único menu interativo, dezenas de alterações que normalmente exigiriam navegar por dezenas muitas vezes confusas ou de difícil acesso. Ele foi pensado para **três objetivos principais**:
 
 | 🎯 Objetivo | Descrição |
 | :--- | :--- |
@@ -19,7 +19,7 @@ O **Windows Polish** reúne, em um único menu interativo, dezenas de alteraçõ
 | ⚡ **Desativar serviços supérfluos** | Remover da inicialização serviços como Fax, Xbox Live e Telefonia, que consomem recursos sem utilidade para a maioria dos usuários domésticos. |
 | ⚙️ **Ajustar comportamentos do sistema** | Impedir pré-carregamento do Edge, desativar ID de anúncio, limitar o Windows Update a "avisar antes de baixar", entre outros. |
 
-> **O que o script NÃO faz:** ele não desativa o Windows Update, não mexe no Microsoft Defender, não remove o Microsoft Store (a menos que você escolha isso explicitamente) e não quebra a ativação do Windows.
+> **O que o script NÃO faz:** ele não desativa o Windows Update, não mexe no Microsoft Defender, não remove o Microsoft Store (a menos que você escolha isso explicitamente), não quebra a ativação do Windows e não compromete o seu sistema de nenhuma forma.
 
 ---
 
@@ -36,7 +36,7 @@ O **Windows Polish** reúne, em um único menu interativo, dezenas de alteraçõ
 
 ## 💡 Como isso ajuda no Windows 10/11
 
-O Windows 10 e 11 vêm com dezenas de serviços e políticas ativadas por padrão que priorizam a coleta de dados e a integração com a nuvem da Microsoft — não necessariamente o desempenho ou a privacidade do usuário.
+O Windows 10 e 11 vêm com dezenas de serviços e políticas ativadas por padrão que priorizam a coleta de dados e a integração com a nuvem da Microsoft, a famosa "Telemetria". Que muitas vezes, compromete o desempenho da sua máquina rodando esses serviços e políticas em segundo plano.
 
 O serviço `DiagTrack`, por exemplo, coleta dados de uso e pode causar picos de uso de disco em máquinas mais antigas. O `SysMain`, embora útil em HDDs, tem benefício marginal em SSDs e pode causar lentidão em alguns casos. O script permite que **você** decida o que manter.
 
@@ -166,7 +166,7 @@ Este projeto é de **uso livre para fins pessoais**. Não há garantias. Use por
 
 <div align="center">
 
-**Feito com 🧠 e ☕ para a comunidade Windows**
+**Feito de coração, que me ajuda muito com meus serviços de pós-formatação de notebooks e desktops**
 
 *Se este script te ajudou, considere dar uma ⭐ no repositório!*
 
